@@ -20,3 +20,10 @@ git commit -m "commit message"
 
 git log
 git show
+
+git  log --oneline --graph --decorate --all
+git config --global alias.history "log --oneline --graph --decorate --all"
+git history
+
+To ignore a bunch of file to commit we need to create the .gitignore file and add *.extension to it.
+Add this file and make a commit.
