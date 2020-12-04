@@ -1,0 +1,10 @@
+ribbon:
+    eureka:
+        enabled: false
+server:
+    port: 8081
+zuul:
+    igoredServices: '*'
+    routes:
+        userauth:
+            url: http://localhost:8080/api/auth
