@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+        enabled: false
+       # service-id: config-service
+#eureka:
+ # client:
+  #  serviceUrl:
+   #   defaultZone: http://localhost:8761/eureka/
